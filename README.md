@@ -209,17 +209,6 @@ parseAndQuery('.name as $n | .age as $a | "\($n) is \($a) years old"',
 - Reduce expressions (`reduce`)
 - Path expressions (`path()`, `paths`, `getpath()`, `delpaths()`)
 
-## Browser Usage
-
-```html
-<script type="module">
-  import { parseAndQuery } from './node_modules/ejq/dist/ejq.js';
-  
-  const result = parseAndQuery('.name', [{ name: 'Browser' }]);
-  console.log(result); // ['Browser']
-</script>
-```
-
 ## Performance
 
 ejq is optimized for embeddability and small bundle size while maintaining good performance:
