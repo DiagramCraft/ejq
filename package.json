@@ -1,0 +1,32 @@
+{
+  "name": "ejq",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "build": "vite build"
+  },
+  "files":["dist"],
+  "main": "./dist/ejq.umd.cjs",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/ejq.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/ejq.js",
+      "require": "./dist/ejq.umd.cjs"
+    }
+  },
+  "keywords": [
+    "jq",
+    "json",
+    "query"
+  ],
+  "devDependencies": {
+    "vite": "^6.3.2",
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^3.2.4"
+  },
+  "author": "Magnus Johansson"
+}
