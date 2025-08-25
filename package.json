@@ -1,15 +1,15 @@
 {
   "name": "embeddable-jq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embeddable implementation of JQ focusing on small size",
   "license": "MIT",
-  "homepage": "https://github.com/DiagramCraft/ejq",
+  "homepage": "https://github.com/DiagramCraft/embeddable-jq",
   "repository": {
     "type": "git",
-    "url": "git@github.com:DiagramCraft/ejq.git"
+    "url": "git@github.com:DiagramCraft/embeddable-jq.git"
   },
   "bugs": {
-    "url": "https://github.com/DiagramCraft/ejq/issues"
+    "url": "https://github.com/DiagramCraft/embeddable-jq/issues"
   },
   "type": "module",
   "scripts": {
