@@ -1,5 +1,5 @@
 {
-  "name": "ejq",
+  "name": "@diagramcraft/ejq",
   "version": "1.0.0",
   "description": "Embeddable implementation of JQ focusing on small size",
   "license": "MIT",
