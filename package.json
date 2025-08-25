@@ -1,5 +1,5 @@
 {
-  "name": "ejq",
+  "name": "embeddable-jq",
   "version": "1.0.0",
   "description": "Embeddable implementation of JQ focusing on small size",
   "license": "MIT",
