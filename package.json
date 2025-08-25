@@ -1,7 +1,16 @@
 {
   "name": "ejq",
   "version": "1.0.0",
-  "description": "",
+  "description": "Embeddable implementation of JQ focusing on small size",
+  "license": "MIT",
+  "homepage": "https://github.com/DiagramCraft/ejq",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DiagramCraft/ejq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DiagramCraft/ejq/issues"
+  },
   "type": "module",
   "scripts": {
     "test": "vitest",
